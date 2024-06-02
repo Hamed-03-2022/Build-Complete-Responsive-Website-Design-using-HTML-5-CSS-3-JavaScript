@@ -1,9 +1,0 @@
-Manufacturer=Skyworks
-PartNumber=SKY65050-372LF
-PartCategory=Transistor
-PackageCategory=Other
-PinCount=4
-Version=1.2
-Released=2019-09-13 11:54:17
-Downloaded=2024-05-22 09:59:30
-3D=Y

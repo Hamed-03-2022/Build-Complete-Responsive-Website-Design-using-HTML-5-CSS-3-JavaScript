@@ -1,9 +1,0 @@
-Manufacturer=SAMTEC
-PartNumber=TSM-103-01-T-SV
-PartCategory=Connector
-PackageCategory=Other
-PinCount=3
-Version=1.12
-Released=2020-06-25 22:26:29
-Downloaded=2024-05-22 09:54:59
-3D=Y

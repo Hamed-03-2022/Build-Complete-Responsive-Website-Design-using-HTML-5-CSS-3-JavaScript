@@ -1,9 +1,0 @@
-Manufacturer=Panasonic
-PartNumber=ERA-3APB682V
-PartCategory=Resistor
-PackageCategory=Other
-PinCount=2
-Version=4.2
-Released=2023-03-07 09:34:55
-Downloaded=2024-05-22 09:46:15
-3D=Y
