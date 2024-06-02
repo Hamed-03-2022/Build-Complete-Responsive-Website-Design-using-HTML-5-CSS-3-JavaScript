@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SKY65050-372LF"
+   (description "RF JFET Transistors .45-6.0GHz NF .45dB Gain 15.5dB @ 2.4GHz")
+   (family "TRX")
+   (package "SKY65050372LF")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA3/319654.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Mouser Part Number" "873-SKY65050-372LF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Skyworks-Solutions-Inc/SKY65050-372LF?qs=WMHGlxXAKT%2FDtxZcJIWIBw%3D%3D")
+   (attribute "Manufacturer_Name" "Skyworks")
+   (attribute "Manufacturer_Part_Number" "SKY65050-372LF")
+   (gate
+    (symbol "SKY65050-372LF")
+    (pin "SOURCE_1" 1 PS)
+    (pin "DRAIN" 2 PS)
+    (pin "SOURCE_2" 3 PS)
+    (pin "GATE" 4 PS)
+   )
+  )
+  (symbol "SKY65050-372LF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SKY65050372LF"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.625)
+      (pt 1 0.625)
+      (pt 1 -0.625)
+      (pt -1 -0.625)
+      (pt -1 0.625))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 2.2)
+      (pt 2 2.2)
+      (pt 2 -2.2)
+      (pt -2 -2.2)
+      (pt -2 2.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 -0.25)
+      (pt -1 0.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1 -0.25)
+      (pt 1 0.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0.5 -1.6)
+      (arc (pt 0.500 -1.600) (pt 0.400 -1.800) (pt 0.600 -1.600) (start 180.0) (sweep 90.0))
+      (pt 0.5 -1.8)
+      (arc (pt 0.500 -1.800) (pt 0.400 -1.800) (pt 0.600 -1.600) (start 180.0) (sweep -90.0))
+      (pt 0.5 -1.6))))
+   (leg 1 (pt 0.500 -0.825) (padstack 1))
+   (leg 2 (pt -0.650 -0.825) (padstack 0))
+   (leg 3 (pt -0.650 0.825) (padstack 0))
+   (leg 4 (pt 0.650 0.825) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 0.750 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.750 0.822 0 0 0.000))
+   )
+   (model "SKY65050-372LF.stp"
+    (euler 0 0 180)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SKY65050-372LF
+D RF JFET Transistors .45-6.0GHz NF .45dB Gain 15.5dB @ 2.4GHz
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA3/319654.pdf
+$ENDCMP
+#
+#End Doc Library

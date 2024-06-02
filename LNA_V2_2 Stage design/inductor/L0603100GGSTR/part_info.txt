@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=L0603100GGSTR
+PartCategory=Inductor
+PackageCategory=Inductors Chip
+PinCount=2
+Version=2.1
+Released=2019-01-21 03:42:00
+Downloaded=2024-05-22 09:45:35
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "L0603100GGSTR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-22-02:40:16)
+    (mountForm default
+        (footprintRef "INDC1608X71N")
+        (spec "System")
+    )
+)
